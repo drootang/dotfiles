@@ -27,5 +27,5 @@
   - git clone https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin
 
 TODO:
-- ruff config (from sjfarm)
+- ruff config
 - bootstrap.sh script to do everything
