@@ -91,9 +91,9 @@ alias rm='rm -i'
 
 # Convenience
 alias less='less -i'
-alias ls='ls -Fh -G'
-alias l='ls -lFh -G'
-alias ll='ls -laFh -G'
+alias ls='ls -Fh --color=auto'
+alias l='ls -lFh --color=auto'
+alias ll='ls -laFh --color=auto'
 alias vim=nvim
 alias vi='nvim -u /dev/null'
 alias h=history
@@ -111,7 +111,7 @@ alias tma='tmux a -d -t '
 
 # Git
 alias gl='git lg'
-alias gs='git status -uno'
+alias gs='git status'
 
 # macOS
 alias p='pbpaste'
@@ -130,4 +130,4 @@ export EDITOR=nvim
 setopt ignore_eof
 
 # drootang oh-my-zsh theme config. Add your typical username
-export DEFAULT_USER=
+export DEFAULT_USER=jnelson
