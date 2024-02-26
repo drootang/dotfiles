@@ -127,6 +127,7 @@ alias joinpdf='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Res
 [[ -f ~/.aliases ]] && . ~/.aliases
 
 export EDITOR=nvim
+setopt ignore_eof
 
 # drootang oh-my-zsh theme config. Add your typical username
 export DEFAULT_USER=
