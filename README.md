@@ -26,6 +26,17 @@
   - install tmux.conf to ~/.config/tmux/tmux.conf
   - git clone https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin
 
+## macOS
+
+1. Install catppuccin iterm2 color scheme.
+2. In profiles:
+  - colors tab: set minimum contrast to 0
+  - text tab: select monaco nerd font
+  - window tab: check "Keep background colors opaque"
+  - terminal tab: uncheck "Show mark indicators"
+
 TODO:
 - ruff config
 - bootstrap.sh script to do everything
+- consolidate utlity repos
+- add linkage to swap.sh
