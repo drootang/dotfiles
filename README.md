@@ -26,7 +26,10 @@
 5. TMUX
   - create ~/.config/tmux/plugins
   - install tmux.conf to ~/.config/tmux/tmux.conf
-  - git clone https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin
+  - Install catppuccin theme for tmux
+    ```
+    git clone https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin
+    ```
 
 ## macOS
 
