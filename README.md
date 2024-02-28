@@ -19,7 +19,9 @@
   - Launch nvim and wait for installs to complete
   - Install pythonl-lsp-ruff into the venv created by mason-lspconfig for python-lsp-server (pylsp)
     E.g.,
-      ~/.local/share/nvim/mason/packages/python-lsp-server/venv/bin/python3 -m pip install python-lsp-ruff
+    ```
+    ~/.local/share/nvim/mason/packages/python-lsp-server/venv/bin/python3 -m pip install python-lsp-ruff
+    ```
 
 5. TMUX
   - create ~/.config/tmux/plugins
