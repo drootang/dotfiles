@@ -39,6 +39,10 @@
   - window tab: check "Keep background colors opaque"
   - terminal tab: uncheck "Show mark indicators"
 
+## Linux
+
+1. Install foot.ini or update foot.ini with catppuccin colors
+
 TODO:
 - ruff config
 - bootstrap.sh script to do everything
