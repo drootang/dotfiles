@@ -130,6 +130,8 @@ export EDITOR=nvim
 setopt ignore_eof
 unsetopt HIST_VERIFY
 ulimit -c > /dev/null
+# prevent venv from modifying the prompt
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 # drootang oh-my-zsh theme config. Add your typical username
 export DEFAULT_USER=
