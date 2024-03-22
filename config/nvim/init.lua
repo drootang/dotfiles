@@ -79,6 +79,8 @@ require('lazy').setup({
   -- replacement for Lexplore/netrw/NERDTree
   'preservim/NERDtree',
 
+  'Vimjas/vim-python-pep8-indent',
+
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
   {
@@ -437,8 +439,8 @@ vim.defer_fn(function()
     ignore_install = {},
     -- You can specify additional Treesitter modules here: -- For example: -- playground = {--enable = true,-- },
     modules = {},
-    highlight = { enable = true },
-    indent = { enable = true },
+    highlight = { enable = true, disable = {'python'} },
+    indent = { enable = true, disable = {'python'} },
     incremental_selection = {
       enable = true,
       keymaps = {
